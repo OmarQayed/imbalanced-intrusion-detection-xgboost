@@ -32,11 +32,18 @@ Overall accuracy will not be treated as the primary criterion because class imba
 
 ## Data
 
-The study uses the corrected/improved CICIDS2017 dataset. Raw data is **not** included in this repository. Excluding the dataset avoids unnecessary redistribution of large research data and follows reproducible-research practice: code and documentation are versioned here, while data remain at their original source.
+The study uses the corrected/improved CICIDS2017 dataset. Raw data is **not** included in this repository and should be stored locally under `data/raw/`.
 
-Dataset provenance and download/access instructions should be documented here once verified.
+The improved dataset corrects known issues in the original CICIDS2017 release, including flow construction and labelling problems.
 
-Corrected CICIDS2017 access link: [TO BE VERIFIED BEFORE FINAL SUBMISSION]
+**Dataset access:**  
+Improved CIC-IDS 2017 — DistriNet Research Group  
+https://intrusion-detection.distrinet-research.be/CNS2022/Dataset_Download.html
+
+**Dataset documentation:**  
+https://intrusion-detection.distrinet-research.be/CNS2022/CICIDS2017.html
+
+The improved dataset contains an `Attempted` indicator for flows that were intended to belong to an attack but did not exhibit the expected malicious behaviour. These flows will not be treated as a separate machine-learning class. Their handling will be documented explicitly in the final preprocessing protocol.
 
 ## Proposed Methodology
 
