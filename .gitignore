@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: keep raw-data folder structure, exclude dataset files
+data/raw/*
+!data/raw/.gitkeep
+
+# Additional secrets and credential files
+*.pem
+*.key
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
