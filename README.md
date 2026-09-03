@@ -8,7 +8,7 @@ This repository currently contains the **research design and reproducibility sca
 
 ## Research Question
 
-> To what extent does cost-sensitive XGBoost improve minority-class intrusion detection compared with unweighted XGBoost and training-only SMOTE-XGBoost on the corrected CICIDS2017 dataset, when evaluated using Macro-F1, per-class recall and false-positive rate?
+> How do unweighted XGBoost, cost-sensitive XGBoost, and training-only SMOTE-XGBoost differ in minority-class intrusion detection performance on the corrected CICIDS2017 dataset, as measured by macro-F1, per-class recall, and false-positive rate?
 
 ## Proposed Experimental Conditions
 
